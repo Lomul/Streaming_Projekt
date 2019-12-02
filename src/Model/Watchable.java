@@ -2,6 +2,11 @@ package Model;
 
 public class Watchable {
     String name;
-    double length;
     double rating;
+
+    public Watchable(String name, double rating)
+    {
+        this.name = name;
+        this.rating = rating;
+    }
 }
