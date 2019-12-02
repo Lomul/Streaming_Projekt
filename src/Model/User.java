@@ -20,7 +20,7 @@ public class User {
         watched.put("",watchable);
     }
 
-    //Add to ”Saved”
-    //Add film and series to a list of “watched”
-    //Change Account
+    //TODO: Add to ”Saved”
+    //TODO: Add film and series to a list of “watched”
+    //TODO: Change Account
 }
