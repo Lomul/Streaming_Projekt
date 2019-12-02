@@ -20,10 +20,7 @@ public class User {
         watched.put(watchable, "");
     }
 
-    public void changeName(String name){
-        this.name = name;
-    }
-    //Add to ”Saved”
-    //Add film and series to a list of “watched”
-    //Change Account
+    //TODO: Add to ”Saved”
+    //TODO: Add film and series to a list of “watched”
+    //TODO: Change Account
 }
