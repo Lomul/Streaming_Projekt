@@ -1,12 +1,12 @@
 package Model;
 
 public class Watchable {
-    String name;
+    String title;
     double rating;
 
-    public Watchable(String name, double rating)
+    public Watchable(String title, double rating)
     {
-        this.name = name;
+        this.title = title;
         this.rating = rating;
     }
 }
