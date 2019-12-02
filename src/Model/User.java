@@ -5,19 +5,19 @@ import java.util.*;
 
 public class User {
     String name;
-    List<Watchable> saved;
-    List<Watchable>  watched;
+    HashMap<Watchable, String> saved;
+    HashMap<Watchable, String> watched;
 
     public User (String name){
         this.name = name;
-        saved = new HashMap<Watchable>(); //vi skal bruge en key dunno
-        watched = new HashMap<Watchable>();
+        saved = new HashMap<>();
+        watched = new HashMap<>();
     }
     public void addSaved(Watchable watchable){
-        saved.put("",watchable);
+        saved.put(watchable, "");
     }
     public void addWatched(Watchable watchable){
-        watched.put("",watchable);
+        watched.put(watchable, "");
     }
 
     //Add to ”Saved”
